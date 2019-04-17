@@ -1,5 +1,5 @@
 import java.time.*;
-public class Calander {
+public class Calendar {
 
     public static void main(String[] args) {
         LocalDate date = LocalDate.now();
@@ -33,6 +33,3 @@ public class Calander {
         if (date.getDayOfWeek().getValue() != 1) System.out.println();
      }
 }
-
-
-
